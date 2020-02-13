@@ -1,7 +1,15 @@
 body{
     height:100vh;
-    background: black;
+    background: url('background.jpg');
+    background-size:contain;
     cursor:none;
+    color: lightgray;
+}
+.glow{
+    text-shadow:0 0 10px #0066ff!important;
+}
+.colored{
+    color: #17a2b8!important;
 }
 
 
@@ -18,12 +26,12 @@ body{
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #2f2f2f;
+    background: #249df0;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #0099ff;
   }
 
 .height-100{
@@ -44,7 +52,8 @@ a{
     border-radius:50%;
 }
 .icons:hover{
-    color:rgb(74, 243, 251);
+    color:#17f4fb;
+    text-shadow: 0 0 10px #0066ff;
 }
 
 
@@ -55,18 +64,18 @@ a{
 }
 .site-content-inner{
     height:100%;
-    background:white;
 }
 .left-menu{
     height:100%;
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background:#1c1e1f;
+    background:#000000c7;
+    border-right: 1px solid #249df0;
 }
 .right-side-inner{
     overflow-y:scroll;
-    background:#1c1e1f;
+    background:#000000;
 }
 .image-card{
     background-size: cover!important;
