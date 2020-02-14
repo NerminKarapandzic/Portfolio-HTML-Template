@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="swiper.min.css">
 
     <link rel="stylesheet" href="style.css">
     <title>Hello, world!</title>
@@ -61,15 +62,15 @@
             <!--Left menu-->
             <div class="col-12 col-md-2 left-menu p-0">
               <div class="col p-0 text-center pt-5">
-                  <a href="#" class=" left-menu-link"><i class="targetable far fa-user fa-2x icons"></i></a>
+                  <a href="#about-me" class=" left-menu-link"><i class="targetable far fa-user fa-2x icons"></i></a>
               </div>
               <div class="col p-0 text-center d-flex flex-column justify-content-between">
-                <a href="#" class="left-menu-link"><i class="fas targetable fa-id-card fa-2x icons"></i></a>
-                <a href="#" class="left-menu-link"><i class="fas targetable fa-laptop-code fa-2x icons"></i></a>
-                <a href="#" class="left-menu-link"><i class="fas targetable fa-briefcase fa-2x icons"></i></a>
+                <a href="#contact" class="left-menu-link"><i class="fas targetable fa-id-card fa-2x icons"></i></a>
+                <a href="#skills" class="left-menu-link"><i class="fas targetable fa-laptop-code fa-2x icons"></i></a>
+                <a href="#my-work" class="left-menu-link"><i class="fas targetable fa-briefcase fa-2x icons"></i></a>
               </div>
               <div class="col p-0 text-center d-flex flex-column justify-content-end mb-5">
-                <a href="#" class="left-menu-link"><i class="fas targetable fa-cloud-download-alt icons fa-2x"></i></a>
+                <a href="#" disabled data-toggle="tooltip" data-placement="top" title="Sorry I'm not functional yet" class="left-menu-link"><i class="fas targetable fa-cloud-download-alt icons fa-2x"></i></a>
               </div>
             </div>
             <!--Image card-->
@@ -80,17 +81,17 @@
                 <h1 class="text-center text-white">Nermin Karapandžić</h1>
                 <h2 class="text-center text-info glow">Developer</h2>
                 <div class="text-center mt-5">
-                  <i class="social-icons fab targetable fa-facebook text-white fa-lg p-2"></i>
-                  <i class="social-icons fab targetable fa-github text-white fa-lg p-2"></i>
-                  <i class="social-icons fab targetable fa-linkedin-in text-white fa-lg p-2"></i>
+                  <a href="https://www.facebook.com/Neerko" target="_blank"><i class="social-icons fab targetable fa-facebook text-white fa-lg p-2"></i></a>
+                  <a href="https://github.com/NerminKarapandzic" target="_blank"><i class="social-icons fab targetable fa-github text-white fa-lg p-2"></i></a>
+                  <a href="https://www.linkedin.com/in/nermin-karapandzic-14546b170/" target="_blank"><i class="social-icons fab targetable fa-linkedin-in text-white fa-lg p-2"></i></a>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <!--Right inner content-->
-        <div class="col-10 col-md-6 height-100 right-side-inner p-5">
-          <div class="row">
+        <div class="col-10 col-md-6 height-100 right-side-inner p-1 p-md-2 p-lg-5">
+          <div class="row" id="about-me">
             <div class="col">
               <h1 class="headings">About Me</h1>
               <h5 class="text-white">
@@ -109,6 +110,139 @@
                 Currently learning <span class="colored">React</span>. What do I want to achieve ? 
                 <span class="colored">Everything.</span>
               </p>
+              
+            </div>
+          </div><hr>
+          <!--Skills-->
+          <div class="row" id="skills">
+            <div class="col">
+              <h1>Skills</h1>
+              <p class="m-0 font-weight-bold">PHP</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 95%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p class="m-0 font-weight-bold">Codeigniter</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p class="m-0 font-weight-bold">Laravel</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 85%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p class="m-0 font-weight-bold">MYSQL</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p class="text-right mt-1 font-italic"><span class="skillset">Backend</span></p>
+              <p class="m-0 font-weight-bold">HTML</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p class="m-0 font-weight-bold">CSS & SCSS</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p class="m-0 font-weight-bold">Bootstrap</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p class="m-0 font-weight-bold">Javascript</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p class="m-0 font-weight-bold">Jquery</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p class="m-0 font-weight-bold">React</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 60%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p class="text-right mt-1 font-italic"><span class="skillset">Frontend</span></p>
+              <p class="m-0 font-weight-bold">Wordpress</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p class="m-0 font-weight-bold">Git</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 60%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p class="m-0 font-weight-bold">Pentesting & Ethical hacking</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p class="text-right mt-1 font-italic"><span class="skillset">Other</span></p>
+            </div>
+          </div><hr>
+          <!--My work-->
+          <div class="row" id="my-work">
+            <div class="col">
+              <h1>My work</h1>
+              <p>After I got certified by <span class="colored">ITacademy</span>, I was
+              trying to find freelance opportunities for a while before I got my first job.
+            From my freelancing time I have managed to get 2 reviews on upwork as shown below.</p>
+            <!-- Swiper -->
+            <div class="swiper-container mt-5 mb-5">
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide flex-column px-5 px-lg-5 justify-content-center">
+                  <div>
+                    <p class="text-center">
+                      <span><i class="fas star fa-star"></i></span>
+                      <span><i class="fas star fa-star"></i></span>
+                      <span><i class="fas star fa-star"></i></span>
+                      <span><i class="fas star fa-star"></i></span>
+                      <span><i class="fas star fa-star"></i></span>
+                    </p>
+                  </div>
+                  <p class="font-italic">"Working with Nermin was fantastic. I ended up hiring him after receiving 
+                    disappointing results working with another freelancer on Upwork. He was eager to get started and
+                     his performance was excellent; his grasp of English is very good which made communication easy 
+                     and he was quick to understand and anticipate what I wanted/needed within the website. I was 
+                     immediately impressed with the high standard of his work/design right from the first draft he 
+                     created. He was very readily available and frequently online which meant all amendments and 
+                     additions were made swiftly and accurately. Even after a setback with the domain (nothing to do 
+                     with Nermin) which meant he had to practically re-create the site from scratch he had no complaints 
+                     or hesitations and quickly got everything fully functioning all over again. Top quality work all 
+                     around, I would recommend working with Nermin without question. If you've shortlisted a few 
+                     freelancers and you're not sure who to pick; choose Nermin, you won't regret it!
+                  </p>
+                </div>
+                <div class="swiper-slide flex-column px-5 px-lg-5 justify-content-center">
+                  <div>
+                    <p class="text-center">
+                      <span><i class="fas star fa-star"></i></span>
+                      <span><i class="fas star fa-star"></i></span>
+                      <span><i class="fas star fa-star"></i></span>
+                      <span><i class="fas star fa-star"></i></span>
+                      <span><i class="fas star fa-star"></i></span>
+                    </p>
+                  </div>
+                  <p class="font-italic">"Nermin is a great freelancer! We received over 80 applications for this projects but decided to hire Nermin because of his great application and very professional communication style.
+                    Due to some unexpected family reasons we could not continue with the project but we are looking forward to working with him again very soon. We like how kind, professional and fast he is."</p>
+                </div>
+              </div>
+              <!-- Add Arrows -->
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+            <!--Swiper end-->
+            <p>After that I got my first job as a frontend developer. I worked 8 months
+              as a support to a team of people who worked as writers/publishers on wordpress blogs,
+              I assisted them when they had some issues, unexpected behaviour, caching problems etc.
+              Eventually I left because of the lack of challenge and learning curve. Now I spend my time
+              improving my skills and learning new stuff, while also searching for a job.
+            </p>
+            </div>
+          </div><hr>
+          <!--Contact-->
+          <div class="row mt-3" id="contact">
+            <div class="col">
+              <h1>Contact</h1>
+              <p>You can contact me on any of my social media profiles or this e-mail.</p>
+              <p class="text-center font-italic font-weight-bold">
+                <span class="colored glow">nermin_biz@hotmail.com</span>
+              </p>
+
             </div>
           </div>
         </div>
@@ -117,7 +251,8 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="magnetCurs.js"></script>
@@ -127,6 +262,15 @@
         spacing:10
       });
     </script>
-    
+    <script src="swiper.min.js"></script>
+      <script>
+        var swiper = new Swiper('.swiper-container', {
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        });
+      </script>
+     
   </body>
 </html>
